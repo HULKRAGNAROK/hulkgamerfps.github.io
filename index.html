@@ -259,7 +259,7 @@ function animCount(el,target){
   const iv=setInterval(()=>{n=Math.min(n+step,target);el.textContent=fmt(n);if(n>=target)clearInterval(iv);},22);
 }
 setTimeout(()=>{
-  animCount(document.getElementById('twitch-count'),410);
+  animCount(document.getElementById('twitch-count'),415);
   animCount(document.getElementById('yt-count'),25);
   animCount(document.getElementById('ig-count'),2100);
 },700);
